@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".episodeActivity">
+
+
+
+    <ImageView
+        android:id="@+id/originalimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/titleEpisode"
+        android:layout_marginTop="310dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/summaryEpisode"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="360dp"
+        android:layout_height="170dp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+
+        android:text="@string/airdate"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="540dp"
+        android:layout_height="30dp"
+
+        />
+    <TextView
+        android:id="@+id/airdate"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="120dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="540dp"
+        android:layout_height="30dp"
+        />
+
+    <TextView
+
+        android:text="@string/airtime"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="570dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:id="@+id/airtime"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="120dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="570dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+
+        android:text="@string/airstamp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="600dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:id="@+id/airtimestamp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="120dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+
+        android:text="@string/runtime"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="630dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:id="@+id/runtime"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="120dp"
+        android:layout_width="30dp"
+        android:layout_marginTop="630dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:textColor="@android:color/white"
+        android:text="@string/minutes"
+        android:layout_marginLeft="148dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="630dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+
+        android:text="@string/url"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="660dp"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:id="@+id/url"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="690dp"
+        android:layout_height="40dp"
+        />
+
+</RelativeLayout>
+

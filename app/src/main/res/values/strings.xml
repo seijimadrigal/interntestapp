@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">interntestapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="airtime">Air Time:</string>
+    <string name="airdate">Air Date:</string>
+    <string name="airstamp">Airstamp:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="url">Url</string>
+    <string name="minutes">minutes</string>
+</resources>
