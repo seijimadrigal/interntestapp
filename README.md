@@ -1,4 +1,4 @@
-# interntestapp
+# INTERNSHIP TEST APPLICATION
 
 Demo App for the Internship Test.
 
